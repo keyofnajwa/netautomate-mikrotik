@@ -37,15 +37,16 @@ Dalam pengelolaan jaringan, khususnya saat melakukan simulasi atau konfigurasi s
 ## 💻 Cara Penggunaan (How to Run)
 
 Ikuti langkah-langkah berikut untuk menjalankan NetAutomate Green di lingkungan lokal Anda:
-```
+
 ### 1. Kloning Repository
 ```bash
 git clone [https://github.com/KeyOfNajwa/netautomate-mikrotik.git](https://github.com/KeyOfNajwa/netautomate-mikrotik.git)
 cd netautomate-mikrotik
+```
 ### 2. Install Dependensi (Library)
 Pastikan Python sudah terinstall di komputer Anda, lalu install Flask dan Netmiko melalui Terminal/CMD:
 
-Bash
+```Bash
 pip install Flask netmiko
 3. Jalankan Aplikasi
 Jalankan server Flask dengan mengetik perintah berikut:
@@ -53,12 +54,14 @@ Jalankan server Flask dengan mengetik perintah berikut:
 Bash
 python app.py
 Jika berhasil, server akan aktif di jalur lokal.
-
+```
 4. Akses Dashboard Web
 Buka browser kesayangan Anda, lalu masuk ke alamat URL berikut:
 
 Plaintext
+```
 [http://127.0.0.1:8080](http://127.0.0.1:8080)
+```
 5. Hubungkan ke Router GNS3
 Pastikan router MikroTik CHR di GNS3 Anda sudah bisa di-ping dari komputer asli.
 
